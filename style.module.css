@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial, sans-serif';
+    /* font-family: "Roboto", sans-serif; */
+    
 }
 
 .grey-background {
@@ -295,19 +296,18 @@ margin-bottom: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 1rem;
     gap: 1rem;
     
 }
 
 
 .main-2-left {
-    width: 50%;
+    width: 45%;
     background-color: white;
     padding: 0;
     margin: 0;
 }
-
 
 
 .bio {
@@ -332,9 +332,8 @@ margin-bottom: 1.5rem;
 }
 
 .main-2-right {
-    background-color: #3124a7;
     color: white;
-    width: 40%;
+    width: 45%;
 }
 
 
@@ -352,8 +351,8 @@ margin-bottom: 1.5rem;
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: -3rem;
-}
 
+}
 
 
 .family h1 {
@@ -361,6 +360,7 @@ margin-bottom: 1.5rem;
     color: #eb1e87;
     font-weight: 1000;
     margin-bottom: -1px;
+    font-family: serif;
 }
 
 .family hr {
@@ -408,7 +408,107 @@ position: relative;
     text-align: center;
 }
 
+.partner {
+    margin: 3rem 0;
+}
+.partner p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
 
+
+/* template - 5 */
+
+.brand{
+    display: flex;
+    justify-content: center;
+    gap: -1rem;
+    
+}
+.left_details {
+    padding: 1.6rem 0 0 2rem;
+    width: 75%;
+}
+.left_details h1 {
+    font-size: 2.7rem;
+    margin-bottom: 2.5rem;
+}
+
+.left_details p {
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+.right_logo {
+    padding: 1.6rem 0 0 2rem;
+    width: 25%;
+}
+
+.right_logo img {
+    width: 180px;
+    border-radius: 10px 0 0 10px;
+    margin-left: 2.8rem;
+
+}
+
+
+.profile-card {
+    position: relative;
+    padding: 0 1rem 0 2rem;
+    margin:1rem;
+}
+
+ 
+.profile-image img {
+    width: 150px;
+    position: absolute;
+    left: 1rem;
+    top: 1.6rem;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+
+.profile-details {
+    background: linear-gradient(to right, #dff0d8, #d0e8f2);
+    padding: 0 1rem 1.7rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-left: 5.4rem;
+  position: relative;
+}
+
+.profile-details p {
+    margin-bottom: -10px;
+}
+
+
+.bottom_logo img{
+    width: 60px;
+}
+
+
+.bottom_logo {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1.2rem;
+}
+
+.bottom_logo img {
+    border-radius: 10px;
+    opacity: 30%;
+}
+
+
+
+.profile_footer{
+    margin-top: -10px;
+}
 
 
 
