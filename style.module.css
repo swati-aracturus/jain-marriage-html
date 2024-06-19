@@ -73,12 +73,12 @@ body {
     display: flex ;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    /* padding: 3rem 0; */
 }
 
 .main_1 {
     background-image: url('./image/wert.jpg');    
-    height: auto;
+    height: 1250px;
     width: 900px;
 
 }
@@ -137,6 +137,7 @@ body {
     align-items: center;
     padding: 20px;
     color: white;
+    margin-bottom: 2rem;
 }
 
 .details_1 {
@@ -214,6 +215,10 @@ body {
 margin-bottom: 1.5rem;
 }
 
+.container_2 .points li {
+    font-size: 1.2rem;
+}
+
 .endPara p {
     font-weight: bold;
     font-size: 1.2rem;
@@ -232,7 +237,8 @@ margin-bottom: 1.5rem;
 .contain {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3.2rem;
+    gap: 5rem;
 
 }
 
@@ -245,33 +251,34 @@ margin-bottom: 1.5rem;
 
 
 .main_1 .choose h1 {
-    font-size: 3.5rem;  
+    font-size: 4rem;  
     color: white;
 }
 
 .left {
-    width: 60%;
+    /* width: 60%; */
     padding-left: 50px;
     
 }
 
 .left p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     word-spacing: 5px;
     line-height: 1.9rem;
+    margin-top: 4.4rem;
 }
 
 
 
 .right img {
-    width: 250px;
+    width: 300px;
     border-radius: 10px 0 0 10px;
 
 }
 
  .contain .share {
-    font-size: 18px;
+    font-size: 24px;
     color: #eb1e87;
     font-weight: bold;
 }
@@ -289,14 +296,14 @@ margin-bottom: 1.5rem;
     display: flex;
     background-color: #3124a7;
     width: 90%;
-    margin: 1.8rem auto;
+    margin: 10px auto;
 }
 
 .main-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     gap: 1rem;
     
 }
@@ -313,20 +320,20 @@ margin-bottom: 1.5rem;
 .bio {
     background-color: #eb1e87;
     margin-top: -1.4rem;
-    height: 8rem;
+    height: 6.5rem;
     color: white;
     
 }
 
 .bio h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     margin-bottom: -1.6rem;
     
 }
 
 .bio p {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     text-align: center;
     font-family: cursive;
 }
@@ -356,7 +363,7 @@ margin-bottom: 1.5rem;
 
 
 .family h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #eb1e87;
     font-weight: 1000;
     margin-bottom: -1px;
@@ -374,9 +381,8 @@ margin-bottom: 1.5rem;
 
 
 .family p {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
-    /* line-height: 0.01px; */
     margin-top: -10px;
 }
 .family p span {
@@ -388,36 +394,44 @@ margin-bottom: 1.5rem;
     margin-bottom: 0px;
 }
 
+.partner {
+    margin: -6px 0;
+}
 
 .contain-2 {
 position: relative;
+margin-bottom: 4rem;
+
 }
 
 .connect {
     width: 100%;
     background-color: rgb(241, 208, 57);
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -5rem;
-    position: absolute;
+    margin-top: -2rem;
+    z-index: 100;
 
 }
 .connect h1 {
     text-align: center;
 }
 
-.partner {
-    margin: 3rem 0;
-}
+
 .partner p {
-    font-size: 1rem;
+    font-size: 17px;
     line-height: 1.5rem;
 }
 
 
 /* template - 5 */
+
+.container_3 {
+    margin-top: 20rem;
+}
+
 
 .brand{
     display: flex;
@@ -561,29 +575,29 @@ position: relative;
     gap: -2rem;
 }
 
-.contact .left h1{
+.contact .left_side h1{
     font-size: 2rem;
     color: #eb1e87;
-    line-height: 1.4rem;
+    line-height: 1.8rem;
 }
 
-.contact .left h1 span{
-    font-size: 1.2rem;
+.contact .left_side h1 span{
+    font-size: 1.5rem;
     color: white;
     font-weight: 600;
 }
 
-.contact .left p{
-    font-size: 1.1rem;
+.contact .left_side p{
+    font-size: 1.3rem;
     color: white;
-    line-height: 0.5rem;
+    margin-bottom: -1rem;
 }
 
-.right {
+.right_side {
     margin-right: 2rem;
 }
 
-.right h1 {
+.right_side h1 {
     color: #eb1e87;
     font-weight: 800;
 }
@@ -593,7 +607,7 @@ position: relative;
     justify-content: space-between;
     align-items: center;
     padding: 0 3rem;
-    margin-bottom: 3rem;
+    margin: 1.7rem 0 3rem 0;
 }
 
 .left_footer {
